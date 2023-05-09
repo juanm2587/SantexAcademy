@@ -1,0 +1,318 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+}
+
+p {
+  font-weight: bold;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+#navbar {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 20px 100px;
+  justify-content: space-between;
+}
+
+#navbar-left {
+  width: 40%;
+}
+button {
+  background-color: white;
+  border-radius: 30px;
+  padding: 0px 1.5em;
+  height: 2.8em;
+  border: 2px solid black;
+  font-size: 0.9em;
+  width: 9em;
+  min-width: fit-content;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+#button-blue {
+  color: #6b53f0;
+  border: 2px solid #6b53f0;
+}
+
+#button-blue:hover {
+  color: white;
+  background-color: #6b53f0;
+}
+
+.navbar-item {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.navbar-item:hover {
+  color: #6b53f0;
+}
+
+.icons {
+  display: flex;
+}
+div#navbar-left img {
+  width: 10em;
+  cursor: pointer;
+}
+
+#presentacion {
+  height: 30em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo {
+  width: 37%;
+}
+
+#titulo h1 {
+  text-align: center;
+}
+
+#titulo-button {
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#impacto {
+  height: 400px;
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  align-items: center;
+}
+
+#impacto-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 50%;
+}
+
+#impacto-left div {
+  width: 55%;
+}
+#impacto-left-title {
+  font-size: 2.5em;
+  color: white;
+}
+
+#impacto-left-leyenda {
+  color: white;
+  font-size: 1em;
+}
+
+.impacto-right-number {
+  font-size: 3em;
+  color: white;
+  margin: 0;
+}
+
+.impacto-right-number span {
+  color: #6b53f0;
+  font-size: 0.6em;
+  position: relative;
+  bottom: 0.3em;
+}
+
+#impacto-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 50%;
+}
+
+.impacto-right-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
+}
+
+#impacto-right div {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  color: #828282;
+}
+
+#background-image {
+  height: 600px;
+  background-image: url("https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg");
+  background-position: center 0px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.programas {
+  padding: 100px 10em 0 10em;
+}
+
+.programas h1 {
+  margin-bottom: 1em;
+}
+
+.card {
+  height: 400px;
+  display: flex;
+}
+
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image-container img {
+  width: 40em;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.card-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em;
+}
+.card-text-container img {
+  width: 15em;
+}
+
+.card-text-container p {
+  font-size: 1em;
+  color: #828282;
+}
+
+#equipo {
+  height: 800px;
+  background-color: #f4f4f5;
+  padding: 100px 10em 0 10em;
+  margin: 0 auto;
+}
+
+#equipo h1 {
+  margin-bottom: 1em;
+}
+
+.tarjeta-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+}
+
+.tarjeta-item {
+  flex-grow: 1;
+  background-color: white;
+  max-width: 18em;
+  max-height: 25em;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  box-shadow: 0px 0px 42px -14px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 42px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 42px -14px rgba(0, 0, 0, 0.75);
+  margin: 1em;
+}
+
+.photo-container img {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.datos {
+  text-align: center;
+}
+
+.datos-nombre {
+  text-align: center;
+}
+.datos-titulo {
+  color: #828282;
+  text-align: center;
+}
+
+.datos-linkedin {
+  margin: 0 auto 10px auto;
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  border: 1px solid;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.datos-linkedin:hover {
+  color: #f4f4f5;
+  background-color: #6b53f0;
+}
+.datos-linkedin i {
+  position: relative;
+  top: 3px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #201b24;
+  align-items: center;
+  padding: 0 10em;
+}
+
+.footer-container {
+  width: 25%;
+  text-align: center;
+}
+.footer-text {
+  color: #d9d9dd;
+}
+
+.link {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+  color: white;
+}
+
+@media (width >= 2500px) {
+  html {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 3500px) {
+  html {
+    font-size: 32px;
+  }
+}
